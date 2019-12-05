@@ -50,7 +50,11 @@ public class homepagetests {
 		Assert.assertTrue(hp.getconfirmationmsg().contains("already registered"));
 
 	}
-	
+	@Test
+	public void verifyemail() {
+		hp.getsubscription();
+		Assert.assertTrue(hp.getconfirmationmsg().contains("already registered"));
+
 	
 
 }
